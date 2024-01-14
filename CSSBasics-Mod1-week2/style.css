@@ -1,0 +1,58 @@
+h1 {
+  color: rgb(128, 0, 128); /*1 = RGB value colors*/
+}
+
+#header1 {
+  color: rgba(0, 255, 0, 50%) /*2 = RGBA where A is alpha where we can edit the amount of transparency in the color*/
+}
+
+p {
+  color: hsl(240 , 100%, 50%); /*3 = HSL values*/
+}
+
+/*below is an ID selector that we are using with # symbol*/
+#latest {
+  background-color: black;
+  color: whitesmoke;
+}
+
+/*below is a class selector that we are using with . symbol*/
+.navigation {
+  margin: 2px;
+  color: aqua;
+}
+
+/*below we will be apply the css on the element with a class selector*/
+p.introduction {
+  margin: 20px;
+}
+
+/* Using descendant selectors to apply only H1 of the div with ID = "blog" */
+
+#blog h1 {
+    color: #ff0000; /*4. Hex code that is being used for the color */
+}
+
+/*Using Child Selectors we can apply the CSS to the child H1 of the Div*/
+
+/* For any div that has a child H1, this CSS will be applied*/ 
+div > h1 {
+    color: blueviolet;
+}
+
+/*We can assign a hover property so that whenever we hover on the object then the properties of the object change*/
+div>h1:hover {
+    color: orange; /*5 = predefined color names*/
+    zoom: 150%;
+}
+
+
+/* Text and color in CSS*/
+/* 5 ways we can use colors
+
+1. RGB = marked with 1
+2. RGBA = marked with 2
+3. HSL = marked with 3
+4. HEX = marked with 4
+5. Predefined color names = marked with 5
+*/
