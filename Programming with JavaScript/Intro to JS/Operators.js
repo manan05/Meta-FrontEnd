@@ -46,4 +46,4 @@ console.log(5 == "5")
 console.log('inter' + 'net');
 
 // combinging strings and numbers using the + operator
- console.log(365 + ' days')
+console.log(365 + ' days')
