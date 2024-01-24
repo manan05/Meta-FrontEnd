@@ -82,3 +82,11 @@ while(counter>0){
 }
 console.log('Happy New Year!');
 
+// nested loop
+//2 week plan eg, week1-day1, week1-day2 ---
+
+for(var i = 1; i<=2; i++){
+    for(var j = 1; j<=5; j++){
+        console.log('Week',i,'- day',j);
+    }
+}
