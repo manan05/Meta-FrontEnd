@@ -52,3 +52,33 @@ if(age >= 65){
 } else{
     console.log('The value of age variable is not numerical');
 }
+
+// Loops in JS
+// For loop
+for(var i =0; i<10;i++){
+    console.log(i);
+}
+
+// 10 seconds countdown to happy new year
+for(var i = 10; i>0; i--){
+    console.log(i);
+}
+console.log('Happy New Year!');
+
+
+// while loops
+var j = 10;
+while(j>0){
+    console.log(j);
+    j--;
+}
+
+// 10 second to happy new year
+
+var counter = 10;
+while(counter>0){
+    console.log(counter);
+    counter--;
+}
+console.log('Happy New Year!');
+
