@@ -93,7 +93,8 @@ function arrayBuilder(one,two,three){
     return arr;
 }
 
-var newArr = arrayBuilder(1,2,3);
+var newArr = a
+rrayBuilder(1,2,3);
 console.log(newArr);
 
 // Built in Math class or object 
