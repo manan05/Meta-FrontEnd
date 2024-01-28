@@ -45,3 +45,24 @@ console.log(newStr.indexOf('-'));
 
 // split method chops the string into an array of subStrings
 console.log(newStr.split('-'));
+
+// Exercise: Creating arrays and objects
+
+var clothes = [];
+clothes.push("shirt");
+clothes.push("pant");
+clothes.push("tShirt");
+clothes.push("tracksuit");
+clothes.push("shoes");
+
+clothes.pop()
+
+clothes.push("Sneakers");
+
+console.log(clothes[2]);
+
+var favCar = {};
+
+favCar.color = "black";
+favCar.convertible = true;
+console.log(favCar);
