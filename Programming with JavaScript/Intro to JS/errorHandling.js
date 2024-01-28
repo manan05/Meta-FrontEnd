@@ -77,10 +77,17 @@ function letterFinder(word, match) {
             }
         }
     }
-    else{
+    else {
         console.log('Please pass correct arguments to the function.');
     }
 }
 
-letterFinder(1,2);
+letterFinder(1, 2);
 letterFinder('hello', 'o');
+
+
+try {
+    console.log(Number(5).toPrecision(55));
+} catch (e) {
+    console.log(e)
+}
