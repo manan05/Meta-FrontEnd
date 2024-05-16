@@ -54,3 +54,29 @@ for(const key of Object.keys(clothingItem)){
 }
 
 
+// Video examples
+
+const newCar = {
+    engine: true,
+    steering: true,
+    speed: 'slow'
+}
+
+const sportsCar = Object.create(newCar);
+sportsCar.speed = 'fast';
+console.log("The sportsCar object = ", sportsCar);
+
+console.log('for - in is unrelaible, ');
+for(prop in sportsCar){
+    console.log(prop);
+}
+
+console.log("FOR IN iterates over its own properties, and it's inherited properties as well!!");
+
+console.log('for - of is relaible');
+
+for(prop of Object.keys(sportsCar)){
+    console.log(prop, ":", sportsCar[prop]);
+}   
+
+console.log("Now it is iterating over ITS OWN properties!!");
